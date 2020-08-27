@@ -1,0 +1,1013 @@
+html{
+    scroll-behavior: smooth;
+}
+
+/*inicio seccion Header*/
+header{
+    width: 100%;
+    padding-bottom: 200px;
+    background: url(../img/hero2.jpg) no-repeat;
+    background-size: cover;
+    left: 20%;;
+    padding-top: 90px;
+    min-height: 700px;
+    color: #ffffff ;
+}
+
+header .navbar-toggler {
+    padding: .24rem .24rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .24rem;
+    border-color: white;
+}
+header  .navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+}
+
+img {
+    min-width: 75px;
+    max-width: 75px;
+}
+
+header nav.bg-quckly{
+    background: #5995cb;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1030;
+}
+header nav.bg-quckly ul li a{
+    color: #ffffff;
+}
+h1{
+    font-size: 66px;  
+    line-height: 450px;
+    text-align: center;
+    color:  #ffffff;
+}
+/*fin seccion header*/
+
+/*inicio sección nosotros*/
+#nosotros p{
+    font-size: 27px;
+    color: #3b679e;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 2px;
+    border: #3b679e;
+    box-shadow: 2px 2px 2px 2px #3b679e;
+    min-height: 100%;
+    background: #a0b5c7;
+    color: #ffffff;
+}
+h2{
+    text-align: center;
+    font-size: 60px;
+    color: #3b679e;
+    
+}
+/*fin sección nosotros*/
+
+/*inicio seccion Servicios*/
+#servicios {
+    width: 100%;
+    padding-bottom: 70px;
+    background: url(../img/sect2.jpg) no-repeat;
+    background-size: cover;
+}
+#servicios h3{
+    color: #03417a;
+    font-size: 60px;
+    text-align: center;
+}
+#servicios p{
+    color: #3b679e;
+    font-size: 40px;
+}
+#servicios .card{
+    max-width: 250px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 2px solid #0e2b8a;
+    border-radius: 20px;
+}
+#servicios .card img{
+    max-width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+#aboutus{
+    padding: 400px;
+    background: url(../img/sect2.jpg);
+    background-position-x: center;
+    background-size: cover;
+}
+
+h4{
+    text-align: center;
+    font-size: 50px;
+    margin-top: -28px;
+    color: #ffffff;
+}
+
+/*fin seccion Servicios*/
+
+/*inicio seccion equipo*/
+#equipo .card{
+    max-width: 259px;
+    padding-bottom: 0px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 2px solid #0e2b8a;
+    border-radius: 20px;
+}
+#equipo .card img{
+    max-width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+h5{
+    text-align-last: center;
+    color: #5995cb;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 26px;
+   
+}
+h6{
+    text-align-last: center;
+    font-size: 60px;
+    color: #3b679e;
+}
+p{
+    font-size: 24px; 
+    font-weight: 600; 
+    line-height: 80px;
+    text-align: center;
+    color: #ffffff;
+}
+/*fin sección equipo*/
+
+/*inicio footer*/
+#footer {
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    background:  #5995cb;
+    position: relative;
+    height: 136px;
+    bottom: 0;
+    width: 100%;
+}
+#footer a{
+    color: #ffffff;
+
+}
+#footer a:hover{
+    color: #ffffff;
+    
+}
+
+#footer .list-inline .list-inline-item{
+    padding: 10px 15px;
+
+}
+
+#footer img{
+    min-width: 45px;
+    max-width: 45px;
+}
+.bg-dark {
+    background-color: #5995cb!important;
+}
+dl, ol, ul {
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+#footer h6{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+/*fin footer*/
+
+
+
+.topmargin-xs{margin-top: 15px !important;}
+.topmargin-sm{margin-top: 30px !important;}
+.topmargin-lg{ margin-top: 60px !important;}
+
+.btn{
+    margin-left: 43%;
+    font-size: 25px;
+    padding: 7px 9px;
+    min-width: 117px;
+    border-radius: 31px;
+    display: inline-block;
+    background-color: #3b679e;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+  
+}
+
+.conten-center {
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+
+}
+.card-img, .card-img-top {
+    max-width: 100%;
+    background: #5995cb;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    min-height: 50%;   
+}
+
+.card-deck .card {
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
+    margin-right: 59px;
+    margin-bottom: 0;
+    margin-left: 59px;
+}
+.card-body {
+    -ms-flex:  auto;
+    flex:  auto;
+    min-height: 1px;
+    padding: 2px;
+    
+}
+#aboutus .card-pagina .row{
+    padding: 20px;
+    background: #3b679e;
+}
+#aboutus .card-pagina img{
+    margin: 10%;
+    border-radius: 20px;
+}
+/*inicio responsive*/
+@media (max-width: 500px) { 
+
+@media (min-width: 501px) and (max-width: 768px) { 
+/*inicio seccion Header*/
+header{
+    width: 100%;
+    padding-bottom: 200px;
+    background: url(../img/hero2.jpg) no-repeat;
+    background-size: cover;
+    left: 20%;;
+    padding-top: 90px;
+    min-height: 700px;
+    color: #ffffff ;
+}
+
+header .navbar-toggler {
+    padding: .24rem .24rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .24rem;
+    border-color: white;
+}
+header  .navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+}
+
+img {
+    min-width: 75px;
+    max-width: 75px;
+}
+
+header nav.bg-quckly{
+    background: #5995cb;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1030;
+}
+header nav.bg-quckly ul li a{
+    color: #ffffff;
+}
+h1{
+    font-size: 66px;  
+    line-height: 450px;
+    text-align: center;
+    color:  #ffffff;
+}
+/*fin seccion header*/
+
+/*inicio sección nosotros*/
+#nosotros p{
+    font-size: 27px;
+    color: #3b679e;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 2px;
+    border: #3b679e;
+    box-shadow: 2px 2px 2px 2px #3b679e;
+    min-height: 100%;
+    background: #a0b5c7;
+    color: #ffffff;
+}
+h2{
+    text-align: center;
+    font-size: 60px;
+    color: #3b679e;
+    
+}
+/*fin sección nosotros*/
+
+/*inicio seccion Servicios*/
+#servicios {
+    width: 100%;
+    padding-bottom: 70px;
+    background: url(../img/sect2.jpg) no-repeat;
+    background-size: cover;
+}
+#servicios h3{
+    color: #03417a;
+    font-size: 60px;
+    text-align: center;
+}
+#servicios p{
+    color: #3b679e;
+    font-size: 40px;
+}
+#servicios .card{
+    max-width: 250px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 2px solid #0e2b8a;
+    border-radius: 20px;
+}
+#servicios .card img{
+    max-width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+#aboutus{
+    padding: 400px;
+    background: url(../img/sect2.jpg);
+    background-position-x: center;
+    background-size: cover;
+}
+
+h4{
+    text-align: center;
+    font-size: 50px;
+    margin-top: -28px;
+    color: #ffffff;
+}
+
+/*fin seccion Servicios*/
+
+/*inicio seccion equipo*/
+#equipo .card{
+    max-width: 259px;
+    padding-bottom: 0px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 2px solid #0e2b8a;
+    border-radius: 20px;
+}
+#equipo .card img{
+    max-width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+h5{
+    text-align-last: center;
+    color: #5995cb;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 26px;
+   
+}
+h6{
+    text-align-last: center;
+    font-size: 60px;
+    color: #3b679e;
+}
+p{
+    font-size: 24px; 
+    font-weight: 600; 
+    line-height: 80px;
+    text-align: center;
+    color: #ffffff;
+}
+/*fin sección equipo*/
+
+/*inicio footer*/
+#footer {
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    background:  #5995cb;
+    position: relative;
+    height: 136px;
+    bottom: 0;
+    width: 100%;
+}
+#footer a{
+    color: #ffffff;
+
+}
+#footer a:hover{
+    color: #ffffff;
+    
+}
+
+#footer .list-inline .list-inline-item{
+    padding: 10px 15px;
+
+}
+
+#footer img{
+    min-width: 45px;
+    max-width: 45px;
+}
+.bg-dark {
+    background-color: #5995cb!important;
+}
+dl, ol, ul {
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+#footer h6{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+/*fin footer*/
+
+
+
+.topmargin-xs{margin-top: 15px !important;}
+.topmargin-sm{margin-top: 30px !important;}
+.topmargin-lg{ margin-top: 60px !important;}
+
+.btn{
+    margin-left: 43%;
+    font-size: 25px;
+    padding: 7px 9px;
+    min-width: 117px;
+    border-radius: 31px;
+    display: inline-block;
+    background-color: #3b679e;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+  
+}
+
+.conten-center {
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+
+}
+.card-img, .card-img-top {
+    max-width: 100%;
+    background: #5995cb;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    min-height: 50%;   
+}
+
+.card-deck .card {
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
+    margin-right: 59px;
+    margin-bottom: 0;
+    margin-left: 59px;
+}
+.card-body {
+    -ms-flex:  auto;
+    flex:  auto;
+    min-height: 1px;
+    padding: 2px;
+    
+}
+#aboutus .card-pagina .row{
+    padding: 20px;
+    background: #3b679e;
+}
+#aboutus .card-pagina img{
+    margin: 10%;
+    border-radius: 20px;
+}
+ }
+@media (min-width: 769px) and (max-width: 992x) { 
+/*inicio seccion Header*/
+header{
+    width: 100%;
+    padding-bottom: 200px;
+    background: url(../img/hero2.jpg) no-repeat;
+    background-size: cover;
+    left: 20%;;
+    padding-top: 90px;
+    min-height: 700px;
+    color: #ffffff ;
+}
+
+header .navbar-toggler {
+    padding: .24rem .24rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .24rem;
+    border-color: white;
+}
+header  .navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+}
+
+img {
+    min-width: 75px;
+    max-width: 75px;
+}
+
+header nav.bg-quckly{
+    background: #5995cb;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1030;
+}
+header nav.bg-quckly ul li a{
+    color: #ffffff;
+}
+h1{
+    font-size: 66px;  
+    line-height: 450px;
+    text-align: center;
+    color:  #ffffff;
+}
+/*fin seccion header*/
+
+/*inicio sección nosotros*/
+#nosotros p{
+    font-size: 27px;
+    color: #3b679e;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 2px;
+    border: #3b679e;
+    box-shadow: 2px 2px 2px 2px #3b679e;
+    min-height: 100%;
+    background: #a0b5c7;
+    color: #ffffff;
+}
+h2{
+    text-align: center;
+    font-size: 60px;
+    color: #3b679e;
+    
+}
+/*fin sección nosotros*/
+
+/*inicio seccion Servicios*/
+#servicios {
+    width: 100%;
+    padding-bottom: 70px;
+    background: url(../img/sect2.jpg) no-repeat;
+    background-size: cover;
+}
+#servicios h3{
+    color: #03417a;
+    font-size: 60px;
+    text-align: center;
+}
+#servicios p{
+    color: #3b679e;
+    font-size: 40px;
+}
+#servicios .card{
+    max-width: 250px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 2px solid #0e2b8a;
+    border-radius: 20px;
+}
+#servicios .card img{
+    max-width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+#aboutus{
+    padding: 400px;
+    background: url(../img/sect2.jpg);
+    background-position-x: center;
+    background-size: cover;
+}
+
+h4{
+    text-align: center;
+    font-size: 50px;
+    margin-top: -28px;
+    color: #ffffff;
+}
+
+/*fin seccion Servicios*/
+
+/*inicio seccion equipo*/
+#equipo .card{
+    max-width: 259px;
+    padding-bottom: 0px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 2px solid #0e2b8a;
+    border-radius: 20px;
+}
+#equipo .card img{
+    max-width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+h5{
+    text-align-last: center;
+    color: #5995cb;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 26px;
+   
+}
+h6{
+    text-align-last: center;
+    font-size: 60px;
+    color: #3b679e;
+}
+p{
+    font-size: 24px; 
+    font-weight: 600; 
+    line-height: 80px;
+    text-align: center;
+    color: #ffffff;
+}
+/*fin sección equipo*/
+
+/*inicio footer*/
+#footer {
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    background:  #5995cb;
+    position: relative;
+    height: 136px;
+    bottom: 0;
+    width: 100%;
+}
+#footer a{
+    color: #ffffff;
+
+}
+#footer a:hover{
+    color: #ffffff;
+    
+}
+
+#footer .list-inline .list-inline-item{
+    padding: 10px 15px;
+
+}
+
+#footer img{
+    min-width: 45px;
+    max-width: 45px;
+}
+.bg-dark {
+    background-color: #5995cb!important;
+}
+dl, ol, ul {
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+#footer h6{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+/*fin footer*/
+
+
+
+.topmargin-xs{margin-top: 15px !important;}
+.topmargin-sm{margin-top: 30px !important;}
+.topmargin-lg{ margin-top: 60px !important;}
+
+.btn{
+    margin-left: 43%;
+    font-size: 25px;
+    padding: 7px 9px;
+    min-width: 117px;
+    border-radius: 31px;
+    display: inline-block;
+    background-color: #3b679e;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+  
+}
+
+.conten-center {
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+
+}
+.card-img, .card-img-top {
+    max-width: 100%;
+    background: #5995cb;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    min-height: 50%;   
+}
+
+.card-deck .card {
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
+    margin-right: 59px;
+    margin-bottom: 0;
+    margin-left: 59px;
+}
+.card-body {
+    -ms-flex:  auto;
+    flex:  auto;
+    min-height: 1px;
+    padding: 2px;
+    
+}
+#aboutus .card-pagina .row{
+    padding: 20px;
+    background: #3b679e;
+}
+#aboutus .card-pagina img{
+    margin: 10%;
+    border-radius: 20px;
+}
+ }
+@media (min-width: 993px) and (max-width: 1200px) { 
+  /*inicio seccion Header*/
+header{
+    width: 100%;
+    padding-bottom: 200px;
+    background: url(../img/hero2.jpg) no-repeat;
+    background-size: cover;
+    left: 20%;;
+    padding-top: 90px;
+    min-height: 700px;
+    color: #ffffff ;
+}
+
+header .navbar-toggler {
+    padding: .24rem .24rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .24rem;
+    border-color: white;
+}
+header  .navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+}
+
+img {
+    min-width: 75px;
+    max-width: 75px;
+}
+
+header nav.bg-quckly{
+    background: #5995cb;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1030;
+}
+header nav.bg-quckly ul li a{
+    color: #ffffff;
+}
+h1{
+    font-size: 66px;  
+    line-height: 450px;
+    text-align: center;
+    color:  #ffffff;
+}
+/*fin seccion header*/
+
+/*inicio sección nosotros*/
+#nosotros p{
+    font-size: 27px;
+    color: #3b679e;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 2px;
+    border: #3b679e;
+    box-shadow: 2px 2px 2px 2px #3b679e;
+    min-height: 100%;
+    background: #a0b5c7;
+    color: #ffffff;
+}
+h2{
+    text-align: center;
+    font-size: 60px;
+    color: #3b679e;
+    
+}
+/*fin sección nosotros*/
+
+/*inicio seccion Servicios*/
+#servicios {
+    width: 100%;
+    padding-bottom: 70px;
+    background: url(../img/sect2.jpg) no-repeat;
+    background-size: cover;
+}
+#servicios h3{
+    color: #03417a;
+    font-size: 60px;
+    text-align: center;
+}
+#servicios p{
+    color: #3b679e;
+    font-size: 40px;
+}
+#servicios .card{
+    max-width: 250px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 2px solid #0e2b8a;
+    border-radius: 20px;
+}
+#servicios .card img{
+    max-width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+#aboutus{
+    padding: 400px;
+    background: url(../img/sect2.jpg);
+    background-position-x: center;
+    background-size: cover;
+}
+
+h4{
+    text-align: center;
+    font-size: 50px;
+    margin-top: -28px;
+    color: #ffffff;
+}
+
+/*fin seccion Servicios*/
+
+/*inicio seccion equipo*/
+#equipo .card{
+    max-width: 259px;
+    padding-bottom: 0px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 2px solid #0e2b8a;
+    border-radius: 20px;
+}
+#equipo .card img{
+    max-width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+h5{
+    text-align-last: center;
+    color: #5995cb;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 26px;
+   
+}
+h6{
+    text-align-last: center;
+    font-size: 60px;
+    color: #3b679e;
+}
+p{
+    font-size: 24px; 
+    font-weight: 600; 
+    line-height: 80px;
+    text-align: center;
+    color: #ffffff;
+}
+/*fin sección equipo*/
+
+/*inicio footer*/
+#footer {
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    background:  #5995cb;
+    position: relative;
+    height: 136px;
+    bottom: 0;
+    width: 100%;
+}
+#footer a{
+    color: #ffffff;
+
+}
+#footer a:hover{
+    color: #ffffff;
+    
+}
+
+#footer .list-inline .list-inline-item{
+    padding: 10px 15px;
+
+}
+
+#footer img{
+    min-width: 45px;
+    max-width: 45px;
+}
+.bg-dark {
+    background-color: #5995cb!important;
+}
+dl, ol, ul {
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+#footer h6{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+/*fin footer*/
+
+
+
+.topmargin-xs{margin-top: 15px !important;}
+.topmargin-sm{margin-top: 30px !important;}
+.topmargin-lg{ margin-top: 60px !important;}
+
+.btn{
+    margin-left: 43%;
+    font-size: 25px;
+    padding: 7px 9px;
+    min-width: 117px;
+    border-radius: 31px;
+    display: inline-block;
+    background-color: #3b679e;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+  
+}
+
+.conten-center {
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+
+}
+.card-img, .card-img-top {
+    max-width: 100%;
+    background: #5995cb;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    min-height: 50%;   
+}
+
+.card-deck .card {
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
+    margin-right: 59px;
+    margin-bottom: 0;
+    margin-left: 59px;
+}
+.card-body {
+    -ms-flex:  auto;
+    flex:  auto;
+    min-height: 1px;
+    padding: 2px;
+    
+}
+#aboutus .card-pagina .row{
+    padding: 20px;
+    background: #3b679e;
+}
+#aboutus .card-pagina img{
+    margin: 10%;
+    border-radius: 20px;
+}
+ }
+@media (min-width: 1200px) { 
+
+}
+
